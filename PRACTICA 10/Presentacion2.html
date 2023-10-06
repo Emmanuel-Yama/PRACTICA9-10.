@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Practica 10</title>
+    <link rel="stylesheet" href="styles2.css">
+</head>
+<body>
+    <div class="container">
+        <label for="tamañoMatriz">Tamaño de la Matriz:</label>
+        <input type="number" id="tamañoMatriz" min="1">
+        <button id="generarMatriz">Generar Matriz</button>
+
+        <div id="matrizInput" style="display:none;">
+            <h2>Ingrese los valores de la matriz:</h2>
+            <table>
+                <tbody id="matrizValores">
+                </tbody>
+            </table>
+            <button id="resolverGauss">Resolver Gauss</button>
+        </div>
+
+    </div> <!-- Cierre de la etiqueta div.container -->
+
+    <h2>Matriz Resultado:</h2>
+    <pre id="matrizResultado"></pre>
+
+    <script src="practica10.js"></script>
+</body>
+</html>
